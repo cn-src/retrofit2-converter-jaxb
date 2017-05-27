@@ -23,3 +23,11 @@ Step 2. Add the dependency
     <version>1.0.0</version>
 </dependency>
 ```
+
+## Demo
+```java
+final Retrofit retrofit = new Retrofit.Builder()
+    .baseUrl("http://demo.com")
+    .addConverterFactory(JaxbConverterFactory.create())
+    .build();
+```
