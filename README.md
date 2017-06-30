@@ -1,9 +1,8 @@
+[![Release](https://jitpack.io/v/cn.javaer/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn.javaer/retrofit2-converter-jaxb)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 Retrofit2 framework JAXB converter
 ==================================
 
-[![Release](https://jitpack.io/v/cn.javaer/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn.javaer/retrofit2-converter-jaxb)
-
-----------------------------------
 ## Use
 Step 1. Add the JitPack repository to your build file
 ```xml
