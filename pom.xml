@@ -71,6 +71,9 @@
                 <version>2.5.3</version>
                 <configuration>
                     <tagNameFormat>@{project.version}</tagNameFormat>
+                    <!--<mavenExecutorId>forked-path</mavenExecutorId>-->
+                    <!--<useReleaseProfile>false</useReleaseProfile>-->
+                    <!--<arguments>${arguments} -P release</arguments>-->
                 </configuration>
             </plugin>
             <plugin>
