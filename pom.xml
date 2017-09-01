@@ -7,6 +7,9 @@
     <artifactId>retrofit2-converter-jaxb</artifactId>
     <version>1.0.0</version>
 
+    <name>retrofit2-converter-jaxb</name>
+    <description>retrofit2 framework jaxb converter</description>
+    <url>https://github.com/javaercn/retrofit2-converter-jaxb</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -117,8 +120,8 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <!--<repository>-->
-            <!--<id>ossrh</id>-->
-            <!--<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+        <!--<id>ossrh</id>-->
+        <!--<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
         <!--</repository>-->
     </distributionManagement>
 </project>
