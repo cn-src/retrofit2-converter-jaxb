@@ -17,7 +17,7 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/javaercn/retrofit2-converter-jaxb.git</connection>
+        <connection>scm:git:ssh://github.com/javaercn/retrofit2-converter-jaxb.git</connection>
         <developerConnection>scm:git:ssh://github.com/javaercn/retrofit2-converter-jaxb.git</developerConnection>
         <url>https://github.com/javaercn/retrofit2-converter-jaxb.git</url>
     </scm>
