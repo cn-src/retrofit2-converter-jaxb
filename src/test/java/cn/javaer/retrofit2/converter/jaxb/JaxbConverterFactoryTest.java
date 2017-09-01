@@ -24,14 +24,12 @@ import static org.junit.Assert.fail;
 /**
  * @author zhangpeng
  */
-public class JaxbConverterFactoryTest
-{
+public class JaxbConverterFactoryTest {
     @Rule public final MockWebServer server = new MockWebServer();
     private Service service;
     
     @Before
-    public void setUp()
-    {
+    public void setUp() {
         final Retrofit retrofit = new Retrofit.Builder()
             .baseUrl(this.server.url("/"))
             .addConverterFactory(JaxbConverterFactory.create())
@@ -40,8 +38,7 @@ public class JaxbConverterFactoryTest
     }
     
     @Test
-    public void bodyWays() throws IOException, InterruptedException
-    {
+    public void bodyWays() throws IOException, InterruptedException {
         this.server.enqueue(new MockResponse().setBody(
             "<my-object><message>hello world</message><count>10</count></my-object>"));
         
@@ -59,8 +56,7 @@ public class JaxbConverterFactoryTest
     }
     
     @Test
-    public void honorsCharacterEncoding() throws IOException
-    {
+    public void honorsCharacterEncoding() throws IOException {
         final Buffer buffer = new Buffer().writeString(
             "<my-object><message>你好，世界</message><count>10</count></my-object>",
             Charset.forName("GBK"));
@@ -74,40 +70,33 @@ public class JaxbConverterFactoryTest
     }
     
     @Test
-    public void deserializeWrongValue() throws IOException
-    {
+    public void deserializeWrongValue() throws IOException {
         this.server.enqueue(new MockResponse().setBody("<myObject><foo/><bar/></myObject>"));
         
         final Call<?> call = this.service.get();
-        try
-        {
+        try {
             call.execute();
             fail();
-        } catch (final RuntimeException e)
-        {
+        } catch (final RuntimeException e) {
             assertThat(e.getCause()).isInstanceOf(UnmarshalException.class);
         }
     }
     
     @Test
-    public void deserializeWrongClass() throws IOException
-    {
+    public void deserializeWrongClass() throws IOException {
         this.server.enqueue(new MockResponse().setBody(
             "<my-object><message>hello world</message><count>10</count></my-object>"));
         
         final Call<?> call = this.service.wrongClass();
-        try
-        {
+        try {
             call.execute();
             fail();
-        } catch (final RuntimeException e)
-        {
+        } catch (final RuntimeException e) {
             assertThat(e.getCause()).isInstanceOf(UnmarshalException.class);
         }
     }
     
-    interface Service
-    {
+    interface Service {
         @GET("/")
         Call<MyObject> get();
         
