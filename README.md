@@ -1,27 +1,18 @@
-[![GitHub version](https://badge.fury.io/gh/javaercn%2Fretrofit2-converter-jaxb.svg)](http://badge.fury.io/gh/javaercn%2Fretrofit2-converter-jaxb)
-[![Release](https://jitpack.io/v/cn.javaer/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn.javaer/retrofit2-converter-jaxb)
+[![GitHub release](https://img.shields.io/github/release/javaercn/retrofit2-converter-jaxb.svg)]()
+[![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/retrofit2-converter-jaxb.svg)]()
+[![Jitpack Release](https://jitpack.io/v/cn.javaer/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn.javaer/retrofit2-converter-jaxb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Retrofit2 framework JAXB converter
 ==================================
 
 ## Use
-Step 1. Add the JitPack repository to your build file
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
-
-Step 2. Add the dependency
+Maven Central
 ```xml
 <dependency>
     <groupId>cn.javaer</groupId>
     <artifactId>retrofit2-converter-jaxb</artifactId>
-    <version>1.0.0</version>
+    <version>LATEST</version>
 </dependency>
 ```
 
