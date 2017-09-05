@@ -1,3 +1,4 @@
+[![GitHub version](https://badge.fury.io/gh/javaercn%2Fretrofit2-converter-jaxb.svg)](http://badge.fury.io/gh/javaercn%2Fretrofit2-converter-jaxb)
 [![Release](https://jitpack.io/v/cn.javaer/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn.javaer/retrofit2-converter-jaxb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
