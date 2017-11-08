@@ -21,14 +21,14 @@ final class JaxbResponseBodyConverter<T> implements Converter<ResponseBody, T> {
         }
     }
 
-    @SuppressWarnings({"unchecked","squid:S2093"})
+    @SuppressWarnings({"unchecked", "squid:S2093"})
     @Override
     public T convert(final ResponseBody value) throws IOException {
         try {
             return (T) this.unmarshaller.unmarshal(new StringReader(value.string()));
         } catch (final JAXBException e) {
             throw new UncheckedException(e);
-        }finally {
+        } finally {
             value.close();
         }
     }

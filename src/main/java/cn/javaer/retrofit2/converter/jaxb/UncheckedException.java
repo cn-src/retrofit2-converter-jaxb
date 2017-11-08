@@ -1,6 +1,8 @@
 package cn.javaer.retrofit2.converter.jaxb;
 
 /**
+ * 包装 RuntimeException.
+ *
  * @author zhangpeng
  */
 public class UncheckedException extends RuntimeException {
