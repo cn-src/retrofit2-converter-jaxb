@@ -4,11 +4,11 @@ import okhttp3.MediaType;
 import okhttp3.RequestBody;
 import retrofit2.Converter;
 
-import java.io.IOException;
-import java.io.StringWriter;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import java.io.IOException;
+import java.io.StringWriter;
 
 final class JaxbRequestBodyConverter<T> implements Converter<T, RequestBody> {
     private static final MediaType MEDIA_TYPE = MediaType.parse("application/xml; charset=UTF-8");
@@ -24,7 +24,7 @@ final class JaxbRequestBodyConverter<T> implements Converter<T, RequestBody> {
             this.marshaller.setProperty(Marshaller.JAXB_ENCODING, CHARSET);
             this.marshaller.setProperty(Marshaller.JAXB_FRAGMENT, true);
         } catch (final JAXBException e) {
-            throw new RuntimeException(e);
+            throw new UncheckedException(e);
         }
     }
     
@@ -34,7 +34,7 @@ final class JaxbRequestBodyConverter<T> implements Converter<T, RequestBody> {
         try {
             this.marshaller.marshal(value, sw);
         } catch (final JAXBException e) {
-            throw new RuntimeException(e);
+            throw new UncheckedException(e);
         }
         return RequestBody.create(MEDIA_TYPE, sw.toString());
     }
