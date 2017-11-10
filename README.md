@@ -2,6 +2,7 @@
 [![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/retrofit2-converter-jaxb.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22cn.javaer%22%20AND%20a%3A%22retrofit2-converter-jaxb%22)
 [![Build Status](https://travis-ci.org/cn-src/retrofit2-converter-jaxb.svg?branch=master)](https://travis-ci.org/cn-src/retrofit2-converter-jaxb)
 [![Quality Gate](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=coverage)](http://localhost:9000/dashboard/index/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges)
+
 Retrofit2 framework JAXB converter
 ==================================
 
