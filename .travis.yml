@@ -3,7 +3,7 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: cn-src-github
+    organization: cn-src
     token:
       secure: "cFaKgBw2Jqzkzhox/iuSzNXc9VzUERVokMMq9TUJomNGgaM/IBlIfec51UHtlVDzn2SUTHMVtTS0bbgtz1SU9Ul2YlYI5c5ukRhmvjUKxGhtY5MnCv1M4pCpyRsI11U8iJbLbvhGqHEO95wVsQ4pGMiuxGgCIQgP5a5Zs4MeN57lrLHrzrn0I0kempGzUbzfDlCYA+dSZPPUXwWh/sFC9OPoEjOZCDoV2HDadgwfvxP0pZbg1zfdishR4j4YySJBBJgLNQq7qsYyuXQRF8s1rGK4JjswB19KMlACrQhfUNrhmGtLmLGaLhlixs8q38/OZhz1BOzGrFplnqfaL0ZX7YgaCJhozUI/1xmz6nJT6OfXb/+RTBGYN3Kvt/kkbAX4v5UOtKs7bfOCMTsURK5qk5Kg8Z4/QPwu979P/EsRNppB9Sc6e3hhE0DrFn+o1O9K1C5BTDLbjyMgFnVMIgpto+zOnWJd7ec0WeZVLikIbH3UZFwSpqpORiYdUpKCw/zAu12gxTT4fKOzHjeS4V2UsPaZMlRdtQDFUtenAQUUvHBXaIQbVF2W4Hn6jyk5NrkRzYYzXNCPDJBZIZt/Owr0C+DKqhOpW/9DCTZEHLmfHkMsAF4+JQKWDx5GZDHALowK35TTkQANXJqytMTjzodW83Q0QFjvTZ0FqN/8KJXDko4="
 jdk:
