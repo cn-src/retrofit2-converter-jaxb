@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/retrofit2-converter-jaxb.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22cn.javaer%22%20AND%20a%3A%22retrofit2-converter-jaxb%22)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.javaer/retrofit2-converter-jaxb/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.javaer/retrofit2-converter-jaxb)
 [![Release](https://jitpack.io/v/cn-src/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn-src/retrofit2-converter-jaxb)
 
 [![Build Status](https://travis-ci.org/cn-src/retrofit2-converter-jaxb.svg?branch=master)](https://travis-ci.org/cn-src/retrofit2-converter-jaxb)
