@@ -3,7 +3,7 @@
 [![Release](https://jitpack.io/v/cn-src/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn-src/retrofit2-converter-jaxb)
 
 [![Build Status](https://travis-ci.org/cn-src/retrofit2-converter-jaxb.svg?branch=master)](https://travis-ci.org/cn-src/retrofit2-converter-jaxb)
-[![Dependency Status](https://www.versioneye.com/user/projects/5a05be922de28c2a8832b413/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a05be922de28c2a8832b413)
+[![Dependency Status](https://www.versioneye.com/user/projects/5a05c3af15f0d72ac7dd8bdd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a05c3af15f0d72ac7dd8bdd)
 [![coverage](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=coverage)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
 [![bugs](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=bugs)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
 [![vulnerabilities](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=vulnerabilities)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
