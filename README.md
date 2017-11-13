@@ -6,6 +6,7 @@ Retrofit2 framework JAXB converter
 [![Release](https://jitpack.io/v/cn-src/retrofit2-converter-jaxb.svg)](https://jitpack.io/#cn-src/retrofit2-converter-jaxb)
 
 [![Build Status](https://travis-ci.org/cn-src/retrofit2-converter-jaxb.svg?branch=master)](https://travis-ci.org/cn-src/retrofit2-converter-jaxb)
+[![Libraries.io for GitHub](https://img.shields.io/librariesio/github/cn-src/retrofit2-converter-jaxb.svg)](https://libraries.io/github/cn-src/retrofit2-converter-jaxb)
 [![coverage](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=coverage)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
 [![bugs](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=bugs)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
 [![vulnerabilities](https://sonarcloud.io/api/badges/measure?key=cn.javaer:retrofit2-converter-jaxb&metric=vulnerabilities)](https://sonarcloud.io/dashboard/index/cn.javaer:retrofit2-converter-jaxb)
