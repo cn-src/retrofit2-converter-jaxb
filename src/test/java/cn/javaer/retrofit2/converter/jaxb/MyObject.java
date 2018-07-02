@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * @author zhangpeng
+ * @author cn-src
  */
 @XmlRootElement(name = "my-object")
 @XmlAccessorType(XmlAccessType.FIELD)

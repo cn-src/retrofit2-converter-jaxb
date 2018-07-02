@@ -22,7 +22,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.fail;
 
 /**
- * @author zhangpeng
+ * @author cn-src
  */
 public class JaxbConverterFactoryTest {
     @Rule public final MockWebServer server = new MockWebServer();
